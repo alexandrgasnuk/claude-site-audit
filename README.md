@@ -44,7 +44,7 @@ The repository is a plugin marketplace. In Claude Code:
 /plugin install site-audit@claude-site-audit
 ```
 
-Restart Claude Code. The repository is private, so git on your machine needs access to it, through `gh auth login` or an SSH key.
+Restart Claude Code.
 
 To have Claude Code offer the plugin to everyone who opens a shared project, add this to the project's `.claude/settings.json`:
 
