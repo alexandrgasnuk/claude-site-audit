@@ -1,0 +1,13 @@
+# Audit data belongs to prospects: never commit it.
+audits/
+
+# Local settings and secrets
+.claude/settings.local.json
+config.json
+.env
+
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store

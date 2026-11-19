@@ -1,0 +1,17 @@
+{
+  "name": "claude-site-audit",
+  "owner": {
+    "name": "AlexG"
+  },
+  "metadata": {
+    "description": "Internal Claude Code plugins for presales website audits."
+  },
+  "plugins": [
+    {
+      "name": "site-audit",
+      "source": "./plugins/site-audit",
+      "description": "Presales website audit with proof screenshots and a Google Doc report.",
+      "version": "1.2.0"
+    }
+  ]
+}
