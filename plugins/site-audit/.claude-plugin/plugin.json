@@ -1,6 +1,6 @@
 {
   "name": "site-audit",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Presales website audit for the sales team: finds the most significant performance, bug, UX/UI, accessibility and technical-SEO issues on a shop, proves each one, and delivers a short report as a Google Doc.",
   "author": {
     "name": "AlexG"

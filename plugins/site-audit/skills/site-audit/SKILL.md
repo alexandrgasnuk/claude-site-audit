@@ -90,7 +90,7 @@ Identify the platform and theme (browser.md, "Platform fingerprints"). Write it 
 
 ### 2. Measure
 
-Pick three URLs: the home page, a category with many products, a product page. Start all three scripts in the background, then end your turn:
+Pick three URLs: the home page, a category with many products, a product page. Start the three scripts as three separate Bash calls in one reply, each with `run_in_background: true`, then end your turn. The harness tracks these and notifies you as each one exits, with the path to its output. Never start them with `nohup` or `&`, which the harness cannot track, and never write a wait loop (`pgrep -f`, `sleep`): `pgrep -f psi.py` also matches the loop's own command line, so the loop never ends.
 
     python3 <skill>/scripts/psi.py <home> <category> <product> --out audits/<domain>/psi
     python3 <skill>/scripts/http_checks.py <domain> --pages <category> <product> --out audits/<domain>/data
