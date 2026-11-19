@@ -161,3 +161,8 @@ plugins/site-audit/
 - **"Agent type not found":** the skill falls back to general-purpose agents that read the same definitions, so the audit still runs. Restart Claude Code after installing or updating to bring back the proper agents.
 - **The audit costs far more than usual:** check `CLAUDE_CODE_EFFORT_LEVEL` (Setup, step 3).
 - **No PageSpeed data:** check the key and that the PageSpeed Insights API is enabled for its project.
+
+## Credits
+
+- **Idea:** Viacheslav Chervinko, the legend of the Uzhhorod office.
+- **Author:** AlexG.
